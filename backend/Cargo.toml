@@ -1,0 +1,8 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "*", features = ["ws"]}
+tokio = { version = "1.21.2", features = ["full"] }
